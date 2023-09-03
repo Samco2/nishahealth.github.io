@@ -1,0 +1,46 @@
+.btn-p{
+    border-radius:2rem;
+    border:none;
+    cursor: pointer;
+    font-size: $default-font-size;
+    padding:1rem 2rem;
+    color: $color-icon;
+    font-weight: 600;
+    text-decoration: none;
+    border:1px solid $color-icon;
+    text-align: center;
+    @include respond(mini-phone) {// width <450px
+        outline: none !important;
+        // border: none !important;
+        font-size: 2rem;
+    }
+
+
+
+    &-white{
+        color:$color-white !important;
+    }
+    
+    
+
+}
+.btn-p:hover{
+    background-color:$color-icon;
+    color: $color-white;;
+    border-radius:2rem;
+
+}
+
+.btn--white{
+    background-color:$color-white;
+    border: none !important;
+    padding:1rem 6rem !important;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 8rem !important;
+   
+}
+.mg{
+    margin-top: 4rem !important;
+}

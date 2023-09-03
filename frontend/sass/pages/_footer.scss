@@ -1,0 +1,117 @@
+.fot{
+    display: flex;
+    color:$color-white;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:0 4rem;
+
+
+    span,
+    a{
+        color: $color-white;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    &_lg{
+        margin:6rem 0;
+        
+
+
+        &-mdia{
+            padding:0 1rem;
+
+            @include respond(mini-phone) {// width <900px
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 2rem 0;
+                
+                
+            }
+            
+
+            &-icon{
+                width: 2.5rem;
+                fill:$color-icon;
+                margin-right:1rem;
+
+                @include respond(tab-portt) {// width <900px
+                    width: 2rem;
+                    margin-right:0rem;
+                    height:10rem;
+                    
+                    
+                }
+
+                @include respond(mini-phone) {// width <900px
+                    height:3rem;
+                    
+                    
+                }
+
+
+                
+                
+                
+            }
+        }
+    }
+
+    &_txt{
+        margin:6rem 0;
+
+        h2{
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            padding: 1rem 2rem;
+            text-align: center;
+
+        }
+        ul{
+            
+            
+            li{
+                list-style: none;
+                margin-bottom: 1rem;
+                text-align: center;
+                
+                
+                a{
+                    
+                    color: $color-white;
+                    font-size: 1.8rem;
+                    cursor: pointer;
+                    padding: 1rem 1rem;
+                    
+                }
+
+                a:hover{
+                    background-color: $color-icon;
+                    border-radius:1rem;
+                    
+                
+
+                }
+                    
+
+                
+            }
+        }
+
+    }
+
+}
+
+.mg-t{
+    margin-top:4rem;
+    background-color: $color-back;
+
+    span{
+        padding: 2rem 0;
+        color: $color-white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}

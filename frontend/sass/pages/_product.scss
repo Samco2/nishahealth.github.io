@@ -1,0 +1,27 @@
+.yrs{
+    display: flex;
+    background-color: $color-back;
+    justify-content: space-around;
+    align-items: center;
+    align-items: center;
+    padding: 4rem 1rem;
+    &_5{
+        align-self: center;
+        text-align: center;
+        color: $color-white;
+        
+
+        h2{
+            font-size: 5rem;
+        }
+
+        a{
+            color: $color-white;
+            font-size: 2rem;
+            cursor:pointer;
+        }
+        a:hover{
+            color:$color-icon;
+        }
+    }
+}

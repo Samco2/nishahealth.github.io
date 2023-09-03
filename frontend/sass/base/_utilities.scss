@@ -1,0 +1,31 @@
+.log{
+    font-weight: 700;
+    font-size: 3rem;
+    color:$color-icon;
+    font-family: sans-serif !important;
+}
+.log2{
+    color:$color-sub-icon;
+    font-weight: 800;
+    font-size: 3rem;
+
+}
+.align{
+    justify-content: center;
+    align-items: center;
+}
+
+.align2{
+    justify-content: flex-start;
+    align-items: flex-start !important;
+}
+
+.align3{
+    justify-content: flex-end;
+    align-items: flex-start !important;
+}
+.mg-b{
+    margin-bottom: 6rem !important;
+}
+
+
