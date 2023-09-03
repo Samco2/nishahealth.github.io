@@ -101,7 +101,7 @@ a:hover {
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
-  font-family: Inter;
+  font-family: Poppins;
 }
 
 .text-black {
@@ -118,7 +118,7 @@ body:after {
   font-weight: 700;
   font-size: 3rem;
   color: #FF007F;
-  font-family: sans-serif !important;
+  font-family: Poppins !important;
 }
 
 .log2 {
@@ -269,7 +269,7 @@ body:after {
 }
 .nav_log a {
   display: flex;
-  font-family: sans-serif !important;
+  font-family: Poppins !important;
   color: #000;
   font-size: 1.6rem;
   font-weight: 500;
@@ -282,7 +282,7 @@ body:after {
 .nav_log a span {
   font-size: 3rem;
   height: 4rem;
-  font-family: Roboto;
+  font-family: Poppins;
 }
 .nav_log a img {
   position: relative;
@@ -353,7 +353,7 @@ body:after {
   font-weight: 300;
   padding: 0.5rem;
   text-decoration: none;
-  font-family: "Work Sans" !important;
+  font-family: "Poppins" !important;
   cursor: pointer;
 }
 .nav_sub li a:focus, .nav_sub li a:active, .nav_sub li a:hover, .nav_sub li a:focus-visible {
@@ -759,12 +759,10 @@ body:after {
   font-size: 2rem;
   margin-bottom: 1rem;
   padding: 1rem 2rem;
-  text-align: center;
 }
 .fot_txt ul li {
   list-style: none;
   margin-bottom: 1rem;
-  text-align: center;
 }
 .fot_txt ul li a {
   color: #fff;
